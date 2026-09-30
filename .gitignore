@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 训练运行产物
+output/
+traj_dump/
+traj_dump_smoke/
+checkpoint-*/
+*.log
+
+# 缓存
+.llm_cache/
+.cache/
+
+# 密钥与本地配置（切勿提交）
+glm-api
+deepseek-api
+.env
+*.key
+*.pem
+
+# 原始数据（用户自行准备，不放入仓库）
+RAW/
